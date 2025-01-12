@@ -1,0 +1,440 @@
+/* Basic CSS styles for the logo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent;
+    box-shadow: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/* General styles */
+body {
+    margin: 0;
+    size: 70px;
+    font-family: Arial, sans-serif;
+}
+
+/* Updated Navigation bar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: transparent; /* Make background transparent */
+    color: white; /* Adjust text color to make it visible on the transparent background */
+    box-shadow: none; /* Remove the shadow if you want a cleaner look */
+}
+
+.navbar .left,
+.navbar .center,
+.navbar .right {
+    display: flex;
+}
+
+.navbar .left a,
+.navbar .right a {
+    text-decoration: none;
+    color: lightgray; /* Change the link color to white */
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar .center input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    width: 300px;
+    border: 3px solid lightgray; /* White border for the search box */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6); /* Slightly transparent background for the input box */
+    color: white; /* Text color inside the input */
+}
+
+.navbar a:hover {
+    color: #452c74;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.quote {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.quote .education {
+    font-size: 36px;
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+}
+
+.quote .most {
+    font-size: 24px;
+    color: #555; /* Dark gray */
+}
+
+.quote .powerful {
+    font-size: 28px;
+    color: #FF5722; /* Orange */
+    font-weight: bold;
+}
+
+.quote .weapon {
+    font-size: 30px;
+    color: #333; /* Darker gray */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote .you {
+    font-size: 28px;
+    color: #FF9800; /* Yellow-orange */
+    font-style: italic;
+}
+
+.quote .change {
+    font-size: 30px;
+    color: #4CAF50; /* Green */
+    font-weight: bold;
+}
+
+.quote .world {
+    font-size: 32px;
+    color: #3F51B5; /* Blue */
+    font-family: 'Georgia', serif;
+}
+
+.quote .author {
+    font-size: 20px;
+    color: #FF5722; /* Orange */
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.resolution-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1ebeb; 
+    padding: 50px 20px;
+}
+  
+.resolution-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 40px; 
+}
+  
+.resolution-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+  
+.resolution-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pre-heading {
+    font-size: 14px;
+    color: #a0a0a0; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+  
+.resolution-content h2 {
+    font-size: 32px;
+    color: #333; 
+    margin: 0 0 20px;
+    line-height: 1.4;
+}
+  
+.resolution-content p {
+    font-size: 16px;
+    color: #666; 
+    margin: 0 0 20px;
+}
+  
+.resolution-link {
+    font-size: 16px;
+    color: #A51C30; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+  
+.resolution-link:hover {
+    text-decoration: underline;
+}
+.section2-img{
+    width: 50%;
+}
+.resolution-image{
+    width: 50%;
+    height: 70%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+}
+
+/* Center the content above cards */
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
+p{
+    margin: 10px 0;
+    font-size: 21px;
+    padding-left: 00px;
+    padding-right: 00px;
+    color: #555;
+
+}
+.element{
+    background-color: antiquewhite;width: 1000px;align-content: center;margin-left: 180px;border-radius: 5px;
+}
+
+/* Main Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 40px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-content p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #555;
+}
+
+body {
+    background-image: url('2021.jpg');
+    background-size: 1300px; /* Make the image cover the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: scroll; /* Fix the background during scroll */
+    background-position: top; /* Center the image */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(44, 37, 39);
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Left Section */
+.footer-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-left h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin-bottom: 10px;
+}
+
+.footer-left ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-left ul li a:hover {
+    color: darkblue;
+}
+
+/* Center Section */
+.footer-center {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.footer-center h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-center ul li a:hover {
+    color: darkblue;
+}
+
+/* Right Section */
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    padding: 0;
+}
+
+.footer-right ul li a:hover {
+    color: darkblue;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        margin-bottom: 20px;
+    }
+
+    .footer-right ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
